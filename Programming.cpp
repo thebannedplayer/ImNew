@@ -47,7 +47,7 @@ int test()
 	std::cin >> protagonistname;
 	std::cout <<"Your names "<< protagonistname << ", is this right? y/n\n";
 }
-
+//Enter the protagonist name
 string Enter_name()
 {
 	for(int i = 9;i > 0;i--)
@@ -76,7 +76,7 @@ string Enter_name()
 		}
 	} return protagonistname;
 }
-
+//Enter Rival name
 string Enter_name_rival()
 {
 
@@ -96,7 +96,7 @@ string Enter_name_rival()
 		else if(confirmName == 'n')
 		{
 			std::cout <<"OK i will ask again\n";
-			Sleep(2000); //wait 2 seconds ;)
+			Sleep(2000); //wait 2 seconds
 		}
 		else
 		{
